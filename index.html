@@ -85,11 +85,10 @@
               <li class="group relative">
                 <a
                   class="ud-menu-scroll mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:mr-0 lg:ml-7 lg:inline-flex lg:py-6 lg:px-0 lg:text-black lg:group-hover:text-black lg:group-hover:opacity-70 xl:ml-12"
-                  href="#team"
+                  href="#certificates"
                 >
-                  Team
+                  Certifikáty
                 </a>
-              </li>
               <li class="group relative">
                 <a
                   class="ud-menu-scroll mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:mr-0 lg:ml-7 lg:inline-flex lg:py-6 lg:px-0 lg:text-black lg:group-hover:text-black lg:group-hover:opacity-70 xl:ml-12"
@@ -97,48 +96,6 @@
                 >
                   Kontakt
                 </a>
-              </li>
-              <li class="submenu-item group relative">
-                <div
-                  class="submenu relative top-full left-0 hidden w-[250px] rounded-sm bg-white p-4 transition-[top] duration-300 group-hover:opacity-100 lg:invisible lg:absolute lg:top-[110%] lg:block lg:opacity-0 lg:shadow-lg lg:group-hover:visible lg:group-hover:top-full"
-                >
-                  <a
-                    class="block rounded py-[10px] px-4 text-sm text-body-color hover:text-primary"
-                    href="about.html"
-                  >
-                    About Page
-                  </a>
-                  <a
-                    class="block rounded py-[10px] px-4 text-sm text-body-color hover:text-primary"
-                    href="pricing.html"
-                  >
-                    Pricing Page
-                  </a>
-                  <a
-                    class="block rounded py-[10px] px-4 text-sm text-body-color hover:text-primary"
-                    href="contact.html"
-                  >
-                    Contact Page
-                  </a>
-                  <a
-                    class="block rounded py-[10px] px-4 text-sm text-body-color hover:text-primary"
-                    href="blog-grids.html"
-                  >
-                    Blog Grid Page
-                  </a>
-                  <a
-                    class="block rounded py-[10px] px-4 text-sm text-body-color hover:text-primary"
-                    href="blog-details.html"
-                  >
-                    Blog Details Page
-                  </a>
-                  <a
-                    class="block rounded py-[10px] px-4 text-sm text-body-color hover:text-primary"
-                    href="404.html"
-                  >
-                    404 Page
-                  </a>
-                </div>
               </li>
             </ul>
           </nav>
@@ -214,9 +171,21 @@
 </section>
 <!-- ====== Features Section End -->
 
+<div
+  class="relative overflow-hidden bg-primary"
+>
+  <div class="container w-full">
+    <img
+      alt="Shaking hands"
+      class="object-contain"
+      src="assets/images/hero/splitter-image.jpg"
+    />
+  </div>
+</div>
+
 <!-- ====== About Section Start -->
 <section
-  class="bg-[#f3f4fe] pt-20 pb-20 lg:pt-[120px] lg:pb-[120px]"
+  class="bg-secondary pt-20 pb-20 lg:pt-[120px] lg:pb-[120px]"
   id="about"
 >
   <div class="container">
@@ -272,14 +241,8 @@
                 Je pro nás obzvláště důležité udržovat úzkou komunikaci s našimi klienty během celého procesu auditu
               </p>
             </div>
-            <div class="text-center">
-              <div class="relative z-10 inline-block">
-                <img
-                  alt="image"
-                  class="lg:w-[600px] md:w-[600px]"
-                  src="assets/images/about/about-image.jpg"
-                />
-              </div>
+            <div
+              class="text-center bg-[url('/assets/images/about/about-image.jpg')] bg-cover bg-no-repeat bg-center w-full sm:h-96 md:h-screen lg:h-screen">
             </div>
           </div>
         </div>
@@ -303,6 +266,7 @@
             Certifikáty
           </h2>
           <div
+
             class="text-lg text-center content-center flex flex-wrap m-auto"
           >
             <a class="navbar-logo block py-5 content-center text-center flex flex-wrap m-auto"
@@ -313,7 +277,7 @@
                 src="assets/images/certificates/certificate_company.png"
               />
             </a>
-            <a class="navbar-logo block py-5" href="assets/images/certificates/certificate_auditor.pdf">
+            <a class="navbar-logo block py-5 content-center text-center flex flex-wrap m-auto" href="assets/images/certificates/certificate_auditor.pdf">
               <img
                 alt="logo"
                 class="header-logo w-96 m-auto"
@@ -330,25 +294,22 @@
 
 <!-- ====== Faq Section Start -->
 <section
-  class="relative z-20 overflow-hidden bg-[#f3f4ff] pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]"
+  class="relative z-20 overflow-hidden bg-secondary pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]"
+  id="faq"
 >
   <div class="container">
     <div class="-mx-4 flex flex-wrap">
       <div class="w-full px-4">
         <div class="mx-auto mb-[60px] max-w-[620px] text-center lg:mb-20">
-              <span class="mb-2 block text-lg font-semibold text-primary">
-                FAQ
-              </span>
           <h2
             class="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[42px]"
           >
-            Any Questions? Answered
+            Co je audit?
           </h2>
           <p
             class="text-lg leading-relaxed text-body-color sm:text-xl sm:leading-relaxed"
           >
-            There are many variations of passages of Lorem Ipsum available
-            but the majority have suffered alteration in some form.
+            Zajímá Vás, jaké je poslání,smysl i cíl auditu? Co je auditor povinen ověřit a jiné? Dozvíte se níže...
           </p>
         </div>
       </div>
@@ -380,16 +341,25 @@
             </div>
             <div class="w-full">
               <h4 class="text-base font-semibold text-black sm:text-lg">
-                How to use TailGrids?
+                Jaké je poslání a smysl auditu?
               </h4>
             </div>
           </button>
           <div class="faq-content hidden pl-[62px]">
             <p class="py-3 text-base leading-relaxed text-body-color">
-              It takes 2-3 weeks to get your first blog post ready. That
-              includes the in-depth research & creation of your monthly
-              content marketing strategy that we do before writing your
-              first blog post, Ipsum available .
+              Posláním a smyslem auditu účetní závěrky je vyjádřit názor nezávislého, kvalifikovaného odborníka na
+              věrohodnost účetní závěrky sestavené a zveřejněné vedením účetní jednotky. Auditor ověřuje, zda údaje v
+              účetní závěrce podávají věrný a poctivý obraz finanční pozice, výsledků hospodaření a příp. peněžních toků
+              v souladu s pravidly předepsanými českými nebo jinými účetními předpisy, často s Mezinárodními standardy
+              účetního výkaznictví (IFRS). Názor auditora má dostatečnou vypovídací schopnost pouze a jenom ve spojení s
+              určitou úplnou účetní závěrkou, ke které se auditor vyjadřuje. Názor auditora vytržený ze souvislosti s
+              konkrétní účetní závěrkou je zmatečný.
+
+            <p
+              class="pt-10 text-left text-xs text-body-color"
+            >
+              Zdroj: <a href="https://www.kacr.cz/poslani-a-smysl-auditu">https://www.kacr.cz/poslani-a-smysl-auditu</a>
+            </p>
             </p>
           </div>
         </div>
@@ -417,18 +387,27 @@
             </div>
             <div class="w-full">
               <h4 class="text-base font-semibold text-black sm:text-lg">
-                How to download icons from LineIcons?
+                Co se rozumí povinným auditem?
               </h4>
             </div>
           </button>
           <div class="faq-content hidden pl-[62px]">
             <p class="py-3 text-base leading-relaxed text-body-color">
-              It takes 2-3 weeks to get your first blog post ready. That
-              includes the in-depth research & creation of your monthly
-              content marketing strategy that we do before writing your
-              first blog post, Ipsum available .
+              Povinným auditem se rozumí dle § 2 odst. a) zákona č. 93/2009 Sb., o auditorech, ve znění pozdějších
+              předpisů, ověření účetní závěrky nebo konsolidované účetní závěrky, zda podává věrný a poctivý obraz
+              předmětu účetnictví v souladu s právními předpisy a příslušným rámcem účetního výkaznictví, na jehož
+              základě je účetní závěrka nebo konsolidovaná účetní závěrka sestavena, pokud takové ověření vyžaduje jiný
+              právní předpis nebo přímo použitelný předpis Evropské unie; případně ověření mezitímní účetní závěrky,
+              pokud takové ověření vyžaduje jiný právní předpis.
+
+            <p
+              class="pt-10 text-left text-xs text-body-color"
+            >
+              Zdroj: <a href="https://www.kacr.cz/poslani-a-smysl-auditu">https://www.kacr.cz/poslani-a-smysl-auditu</a>
+            </p>
             </p>
           </div>
+
         </div>
         <div
           class="single-faq wow fadeInUp mb-8 w-full rounded-lg border border-[#F3F4FE] bg-white p-5 sm:p-8"
@@ -454,16 +433,21 @@
             </div>
             <div class="w-full">
               <h4 class="text-base font-semibold text-black sm:text-lg">
-                Is GrayGrids part of UIdeck?
+                Co je audit?
               </h4>
             </div>
           </button>
           <div class="faq-content hidden pl-[62px]">
             <p class="py-3 text-base leading-relaxed text-body-color">
-              It takes 2-3 weeks to get your first blog post ready. That
-              includes the in-depth research & creation of your monthly
-              content marketing strategy that we do before writing your
-              first blog post, Ipsum available .
+              Audit je ověřovací zakázkou, která znamená zakázku, v níž odborník vyjadřuje závěr s cílem zvýšit míru
+              důvěry předpokládaných uživatelů jiných než odpovědná strana ohledně výsledku hodnocení či oceňování
+              předmětu zakázky vůči daným kritériím (Mezinárodní rámec pro ověřovací zakázky).
+
+            <p
+              class="pt-10 text-left text-xs text-body-color"
+            >
+              Zdroj: <a href="https://www.kacr.cz/poslani-a-smysl-auditu">https://www.kacr.cz/poslani-a-smysl-auditu</a>
+            </p>
             </p>
           </div>
         </div>
@@ -493,16 +477,28 @@
             </div>
             <div class="w-full">
               <h4 class="text-base font-semibold text-black sm:text-lg">
-                Can I use this template for commercial project?
+                Co se rozumí auditorskou činností?
               </h4>
             </div>
           </button>
           <div class="faq-content hidden pl-[62px]">
             <p class="py-3 text-base leading-relaxed text-body-color">
-              It takes 2-3 weeks to get your first blog post ready. That
-              includes the in-depth research & creation of your monthly
-              content marketing strategy that we do before writing your
-              first blog post, Ipsum available .
+              Auditorskou činností se rozumí dle § 2 odst. c) zákona č. 93/2009 Sb., o auditorech, ve znění pozdějších
+              předpisů:
+            <ul class="m-auto lg:max-w-[80%] list-disc text-body-color">
+              <li>provádění povinného auditu</li>
+              <li>přezkoumání hospodaření podle jiného právního předpisu, pokud toto přezkoumání provádí auditor</li>
+              <li>ověřování účetních záznamů</li>
+              <li>ověřování jiných ekonomických informací auditorem nebo provádění dalších činností auditorem, pokud tak
+                stanoví jiný právní předpis nebo přímo použitelný předpis Evropské unie
+              </li>
+              <li>nebo jiné ověřování účetní závěrky, jiných účetních záznamů nebo jejich částí prováděné auditorem</li>
+            </ul>
+            <p
+              class="pt-10 text-left text-xs text-body-color"
+            >
+              Zdroj: <a href="https://www.kacr.cz/poslani-a-smysl-auditu">https://www.kacr.cz/poslani-a-smysl-auditu</a>
+            </p>
             </p>
           </div>
         </div>
@@ -530,16 +526,20 @@
             </div>
             <div class="w-full">
               <h4 class="text-base font-semibold text-black sm:text-lg">
-                Do you have plan to releasing Play Pro?
+                Jaký je cíl auditu?
               </h4>
             </div>
           </button>
           <div class="faq-content hidden pl-[62px]">
             <p class="py-3 text-base leading-relaxed text-body-color">
-              It takes 2-3 weeks to get your first blog post ready. That
-              includes the in-depth research & creation of your monthly
-              content marketing strategy that we do before writing your
-              first blog post, Ipsum available .
+              Cílem auditu účetní závěrky je umožnit auditorovi vyjádřit názor, zda je účetní závěrka ve všech
+              významných (materiálních) ohledech v souladu s příslušným rámcem účetního výkaznictví (Mezinárodní
+              auditorský standard (ISA) 200 "Cíle a obecné principy auditu účetní závěrky").
+            <p
+              class="pt-10 text-left text-xs text-body-color"
+            >
+              Zdroj: <a href="https://www.kacr.cz/poslani-a-smysl-auditu">https://www.kacr.cz/poslani-a-smysl-auditu</a>
+            </p>
             </p>
           </div>
         </div>
@@ -567,21 +567,40 @@
             </div>
             <div class="w-full">
               <h4 class="text-base font-semibold text-black sm:text-lg">
-                Where and how to host this template?
+                Co je auditor povinen ověřit při povinném auditu?
               </h4>
             </div>
           </button>
           <div class="faq-content hidden pl-[62px]">
             <p class="py-3 text-base leading-relaxed text-body-color">
-              It takes 2-3 weeks to get your first blog post ready. That
-              includes the in-depth research & creation of your monthly
-              content marketing strategy that we do before writing your
-              first blog post, Ipsum available .
+              Auditor je při provádění povinného auditu povinen ověřit, zda (§ 20 odst. 1 písm. c) a e) zákona č.
+              93/2009 Sb., o auditorech, ve znění pozdějších předpisů):
+            <ul class="m-auto lg:max-w-[80%] list-disc text-body-color">
+              <li>závěrka nebo konsolidovaná účetní závěrka podává věrný a poctivý obraz předmětu účetnictví v souladu s
+                právními předpisy a příslušným rámcem účetního výkaznictví, na jehož základě je účetní závěrka nebo
+                konsolidovaná účetní závěrka sestavena
+              </li>
+              <li>údaje obsažené ve výroční zprávě nebo konsolidované výroční zprávě, které popisují skutečnosti, jež
+                jsou též předmětem zobrazení v účetní závěrce nebo konsolidované účetní závěrce, jsou ve všech
+                významných (materiálních) ohledech v souladu s příslušnou účetní závěrkou nebo konsolidovanou účetní
+                závěrkou
+              </li>
+            </ul>
+            <p
+              class="pt-10 text-left text-xs text-body-color"
+            >
+              Zdroj: <a href="https://www.kacr.cz/poslani-a-smysl-auditu">https://www.kacr.cz/poslani-a-smysl-auditu</a>
+            </p>
             </p>
           </div>
         </div>
       </div>
     </div>
+    <p
+      class="pt-10 text-center text-lg leading-relaxed text-body-color sm:text-xl sm:leading-relaxed"
+    >
+      Pokud máte zájem o další informace, neváhejte nás kontaktovat.
+    </p>
   </div>
 
   <div class="absolute bottom-0 right-0 z-[-1]">
@@ -717,19 +736,17 @@
           </div>
         </div>
       </div>
-
     </div>
   </div>
 </section>
 <!-- ====== Contact End ====== -->
 
-
 <!-- ====== Map Start ====== -->
 <section class="relative">
   <div class="w-full h-96">
-    <iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="map" scrolling="no"
-            src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=Nábřeží+Dukelských+hrdinů+561&oq=Nábřeží+Dukelských+hrdinů+561&ie=UTF8&t=p&z=14&iwloc=B&output=embed"
-            style=""></iframe>
+    <iframe frameborder="0" height="100%" marginheight="0" marginwidth="0" scrolling="no" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=Nábřeží+Dukelských+hrdinů+561&oq=Nábřeží+Dukelských+hrdinů+561&ie=UTF8&t=p&z=14&iwloc=B&output=embed" style=""
+            title="map"
+            width="100%"></iframe>
   </div>
 </section>
 <!-- ====== Map End ====== -->
