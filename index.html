@@ -108,7 +108,7 @@
 
 <!-- ====== Hero Section Start -->
 <div
-  class="relative overflow-hidden bg-primary pt-[120px] md:pt-[130px] lg:pt-[160px] bg-hero-pattern bg-cover"
+  class="relative overflow-hidden bg-hero pt-[120px] md:pt-[130px] lg:pt-[160px] bg-hero-pattern bg-top bg-cover"
   id="home"
 >
   <div class="container h-96">
@@ -118,13 +118,6 @@
           class="hero-content wow fadeInUp mx-auto max-w-[780px] text-center"
           data-wow-delay=".2s"
         >
-          <!--
-          <h1
-            class="mb-8 text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug md:text-[45px] md:leading-snug"
-          >
-            Jadrníčková - AUDIT s.r.o., auditorská společnost č. 563
-          </h1>
-          --->
         </div>
       </div>
     </div>
@@ -133,7 +126,7 @@
 <!-- ====== Hero Section End -->
 
 <!-- ====== Features Section Start -->
-<section class="pt-20 pb-8 lg:pt-[120px] lg:pb-[70px]"
+<section class="pt-20 pb-8 lg:pt-[120px] lg:pb-[50px]"
          id="services"
 >
   <div class="container">
@@ -171,18 +164,6 @@
 </section>
 <!-- ====== Features Section End -->
 
-<div
-  class="relative overflow-hidden bg-primary"
->
-  <div class="container w-full">
-    <img
-      alt="Shaking hands"
-      class="object-contain"
-      src="assets/images/hero/splitter-image.jpg"
-    />
-  </div>
-</div>
-
 <!-- ====== About Section Start -->
 <section
   class="bg-secondary pt-20 pb-20 lg:pt-[120px] lg:pb-[120px]"
@@ -193,7 +174,7 @@
       <div class="-mx-4 flex flex-wrap">
         <div class="w-full px-4">
           <div
-            class="items-center justify-between overflow-hidden border lg:flex"
+            class="items-center justify-between overflow-hidden border lg:flex 2xl:flex"
           >
             <div
               class="w-full py-12 px-7 sm:px-12 md:p-16 lg:max-w-[565px] lg:py-9 lg:px-16 xl:max-w-[640px] xl:p-[70px]"
@@ -204,7 +185,7 @@
                     O nás
                   </span>
               <h2
-                class="mb-6 text-3xl font-bold text-dark sm:text-4xl sm:leading-snug 2xl:text-[40px]"
+                class="mb-6 text-3xl font-bold text-dark sm:text-4xl sm:leading-snug"
               >
                 Auditorská společnost Jadrníčková-AUDIT s.r.o.
               </h2>
@@ -242,7 +223,7 @@
               </p>
             </div>
             <div
-              class="text-center bg-[url('/assets/images/about/about-image.jpg')] bg-cover bg-no-repeat bg-center w-full sm:h-96 md:h-screen lg:h-screen">
+              class="text-center bg-[url('/assets/images/about/about-image.jpg')] bg-cover bg-no-repeat bg-center w-full h-96 sm:h-96 md:h-screen xl:h-screen 2xl:h-screen">
             </div>
           </div>
         </div>
@@ -277,7 +258,8 @@
                 src="assets/images/certificates/certificate_company.png"
               />
             </a>
-            <a class="navbar-logo block py-5 content-center text-center flex flex-wrap m-auto" href="assets/images/certificates/certificate_auditor.pdf">
+            <a class="navbar-logo block py-5 content-center text-center flex flex-wrap m-auto"
+               href="assets/images/certificates/certificate_auditor.pdf">
               <img
                 alt="logo"
                 class="header-logo w-96 m-auto"
@@ -291,6 +273,18 @@
   </div>
 </section>
 <!-- ====== About Section End -->
+
+<div
+  class="relative overflow-hidden bg-primary"
+>
+  <div class="container w-full">
+    <img
+      alt="Shaking hands"
+      class="object-contain"
+      src="assets/images/hero/splitter-image.jpg"
+    />
+  </div>
+</div>
 
 <!-- ====== Faq Section Start -->
 <section
@@ -645,7 +639,7 @@
       <div class="w-full px-4">
         <div class="ud-contact-content-wrapper">
           <div class="mb-12 flex flex-wrap justify-between lg:mb-0">
-            <div class="mb-8 flex w-[330px] max-w-full">
+            <div class="mb-8 flex w-[300px] max-w-full">
               <div class="mr-6 text-[32px] text-primary">
                 <svg
                   class="fill-current"
@@ -671,11 +665,9 @@
                   IČ: 04325222<br>
                   DIČ: CZ04325222<br>
                 </p>
-
               </div>
             </div>
-
-            <div class="mb-8 flex w-[330px] max-w-full">
+            <div class="mb-8 flex w-[300px] max-w-full">
               <div class="mr-6 text-[32px] text-primary">
                 <svg
                   class="fill-current"
@@ -698,7 +690,7 @@
                   class="text-base text-body-color">konfirmace@jadrnickova-audit.cz</p></a>
               </div>
             </div>
-            <div class="mb-8 flex w-[330px] max-w-full">
+            <div class="mb-8 flex w-[300px] max-w-full">
               <div class="mr-6 text-[32px] text-primary">
                 <svg
                   class="fill-current"
@@ -733,6 +725,61 @@
                 <a href="tel:+420571625651"><p class="text-base text-body-color">+420 571 625 651</p></a>
               </div>
             </div>
+            <div class="mb-8 flex w-[300px] max-w-full">
+              <div class="mr-5 text-[32px] text-primary">
+                <svg
+                  class="fill-current"
+                  height="30"
+                  viewBox="0 0 500 500"
+                  width="32"
+                >
+                  <path
+                    d="m256,51.8c-112.6,0-204.2,91.6-204.2,204.2s91.6,204.2 204.2,204.2 204.2-91.6 204.2-204.2-91.6-204.2-204.2-204.2v-1.42109e-14zm0,449.2c-135.1,0-245-109.9-245-245s109.9-245 245-245 245,109.9 245,245-109.9,245-245,245z"/>
+                  <path
+                    d="m344.1,276.4h-88.1c-11.3,0-20.4-9.1-20.4-20.4v-157.8c0-11.3 9.1-20.4 20.4-20.4 11.3,0 20.4,9.1 20.4,20.4v137.4h67.7c11.3,0 20.4,9.1 20.4,20.4 5.68434e-14,11.3-9.1,20.4-20.4,20.4z"/>
+                </svg>
+              </div>
+              <div>
+                <h5 class="mb-6 text-lg font-semibold">Otvírací doba</h5>
+                <table class="table-auto text-base text-body-color">
+                  <tr>
+                    <td>Po</td>
+                    <td>:&nbsp</td>
+                    <td>7:30 - 16:00</td>
+                  </tr>
+                  <tr>
+                    <td>Út</td>
+                    <td>:</td>
+                    <td>7:30 - 16:00</td>
+                  </tr>
+                  <tr>
+                    <td>St</td>
+                    <td>:</td>
+                    <td>7:30 - 16:00</td>
+                  </tr>
+                  <tr>
+                    <td>Čt</td>
+                    <td>:</td>
+                    <td>7:30 - 16:00</td>
+                  </tr>
+                  <tr>
+                    <td>Pá</td>
+                    <td>:</td>
+                    <td>7:30 - 16:00</td>
+                  </tr>
+                  <tr>
+                    <td>So</td>
+                    <td>:</td>
+                    <td>zavřeno</td>
+                  </tr>
+                  <tr>
+                    <td>Ne</td>
+                    <td>:</td>
+                    <td>zavřeno</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -744,7 +791,9 @@
 <!-- ====== Map Start ====== -->
 <section class="relative">
   <div class="w-full h-96">
-    <iframe frameborder="0" height="100%" marginheight="0" marginwidth="0" scrolling="no" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=Nábřeží+Dukelských+hrdinů+561&oq=Nábřeží+Dukelských+hrdinů+561&ie=UTF8&t=p&z=14&iwloc=B&output=embed" style=""
+    <iframe frameborder="0" height="100%" marginheight="0" marginwidth="0" scrolling="no"
+            src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=Nábřeží+Dukelských+hrdinů+561&oq=Nábřeží+Dukelských+hrdinů+561&ie=UTF8&t=p&z=14&iwloc=B&output=embed"
+            style=""
             title="map"
             width="100%"></iframe>
   </div>
